@@ -7,6 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LearningAngular';
+  appareils = [
+    {
+      name: 'machine à laver',
+      status: 'allumer'
+    },
+    {
+      name: 'Frigo',
+      status: 'eteint'
+    },
+    {
+      name: 'Fer à repasser',
+      status: 'eteint'
+    }
+  ];
+
   isAuth = true;
 
   onAllumer() {
